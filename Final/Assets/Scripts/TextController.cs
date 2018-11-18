@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TextController : MonoBehaviour {
+public class TextController : MonoBehaviour
+{
+
+     public GUIText instructionsText;
 
     void Start()
     {
@@ -18,3 +21,5 @@ public class TextController : MonoBehaviour {
             Destroy(gameObject);
         }
     }
+
+}
