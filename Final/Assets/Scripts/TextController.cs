@@ -1,15 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TextController : MonoBehaviour
 {
 
-     public GUIText instructionsText;
+    //public GUIText instructionsText;
+    public Text instructionText;
 
     void Start()
     {
-        instructionsText.text = "Reach the end!";
+        instructionText.text = "Reach the end!";
         Time.timeScale = 0;
     }
 
