@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour {
     public int extraJumpsValue;
     private int extraJumps;
 
+
     void Start(){
         extraJumps = extraJumpsValue;
         rb = GetComponent<Rigidbody2D>();
@@ -32,8 +33,9 @@ public class PlayerController : MonoBehaviour {
     }
 
     void Update(){
+    
 
-        if(isGrounded == true){
+        if (isGrounded == true){
             extraJumps = extraJumpsValue;
         }
 

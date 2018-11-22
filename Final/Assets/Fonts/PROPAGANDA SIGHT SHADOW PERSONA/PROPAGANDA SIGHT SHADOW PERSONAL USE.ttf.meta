@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: e33ef7c88472a473eaa2f9403ae489e8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: PROPAGANDA SIGHT SHADOW PERSONA
+  fontNames:
+  - PROPAGANDA SIGHT SHADOW PERSONA
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
