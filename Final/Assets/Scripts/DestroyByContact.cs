@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DestroyByContact : MonoBehaviour
 {
+    public AudioSource Pop;
 
     // Use this for initialization
     void Start()
@@ -23,6 +24,7 @@ public class DestroyByContact : MonoBehaviour
         if (other.tag == "Player"){
 
             Destroy(other.gameObject);
+            Pop.Play();
         }
 
     }
