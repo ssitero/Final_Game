@@ -14,10 +14,13 @@ public class Respawn: MonoBehaviour {
 
        
     }
-    public void RespawnPlayer(){
-        if (Player.transform.position.y < minHeightForDeath)
+    //public void RespawnPlayer(){
+    void Update()
+    {
+    
+        if (transform.position.y < minHeightForDeath)
         {
-            Player.transform.position = Restart.transform.position;
+            transform.position = Restart.transform.position;
         }
        
     } 
