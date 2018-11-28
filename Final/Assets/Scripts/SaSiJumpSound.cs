@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class JumpSound : MonoBehaviour {
+public class SaSiJumpSound : MonoBehaviour {
 
     public AudioSource Jump;
 

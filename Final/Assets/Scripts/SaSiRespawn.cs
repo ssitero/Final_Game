@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Respawn: MonoBehaviour {
+public class SaSiRespawn : MonoBehaviour {
 
     public GameObject Restart;
 
-    private PlayerController Player;
+    private SaSiPlayerController Player;
 
     public float minHeightForDeath;
 

@@ -2,14 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DestroyByContact : MonoBehaviour
+public class SaSiDestroyByContact : MonoBehaviour
 {
     public AudioSource Pop;
+    public Transform blast;
 
     // Use this for initialization
     void Start()
     {
-
+        blast.GetComponent<ParticleSystem>().enableEmission = false;
     }
 
     // Update is called once per frame
@@ -25,6 +26,8 @@ public class DestroyByContact : MonoBehaviour
 
             Destroy(other.gameObject);
             Pop.Play();
+            blast.GetComponent<ParticleSystem>().enableEmission = true;
+
         }
 
     }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour {
+public class SaSiPlayerController : MonoBehaviour {
 
     public float speed;
     public float jumpForce;
@@ -19,9 +19,11 @@ public class PlayerController : MonoBehaviour {
     private int extraJumps;
 
 
+
     void Start(){
         extraJumps = extraJumpsValue;
         rb = GetComponent<Rigidbody2D>();
+
     }
 
     void FixedUpdate(){
@@ -30,6 +32,9 @@ public class PlayerController : MonoBehaviour {
 
         moveInput = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+
+        if (Input.GetKey("escape"))
+            Application.Quit();
     }
 
     void Update(){

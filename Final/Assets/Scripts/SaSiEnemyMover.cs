@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyMover : MonoBehaviour
+public class SaSiEnemyMover : MonoBehaviour
 {
     Vector3 current_position;
     float direction = 1.0f;
