@@ -5,13 +5,13 @@ using UnityEngine.UI;
 
 public class SaSiEndGame : MonoBehaviour {
 
-    public Text endtext;
+    public Text EndText;
 
 
     // Use this for initialization
     void Start () {
 
-       // endtext.text.SetActive(false);
+        EndText.text = "";
 
     }
 
@@ -25,8 +25,8 @@ public class SaSiEndGame : MonoBehaviour {
         if (other.tag == "Player")
         {
            
-         //   endtext.text.SetActive(true);
-            endtext.text = "You Win!";
+        
+            EndText.text = "You Win!";
 
         }
        
