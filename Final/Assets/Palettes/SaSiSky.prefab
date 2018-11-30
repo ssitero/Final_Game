@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4731972366931238}
   - component: {fileID: 2569400268452561422}
   m_Layer: 31
-  m_Name: Sky
+  m_Name: SaSiSky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -147,7 +147,7 @@ Tilemap:
   - first: {x: -3, y: 0, z: 0}
     second:
       m_TileIndex: 2
-      m_TileSpriteIndex: 2
+      m_TileSpriteIndex: 4294967295
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -156,7 +156,7 @@ Tilemap:
   - first: {x: -2, y: 0, z: 0}
     second:
       m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -165,7 +165,7 @@ Tilemap:
   - first: {x: -1, y: 0, z: 0}
     second:
       m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -180,12 +180,12 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 27d2561b01ef341ecb2bfb115f75d377, type: 2}
   m_TileSpriteArray:
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 21300000, guid: 63901ff92c73b42ff9dfa6366d16709f, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300000, guid: 91694874cd74e4757817d12a251fb680, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 21300000, guid: a48008d2240bc48c0b607ea54c26d704, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 3
     m_Data:

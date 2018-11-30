@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Cloud2
+  m_Name: SaSiCloud2
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 21300000, guid: 91694874cd74e4757817d12a251fb680, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
