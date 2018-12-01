@@ -33,12 +33,13 @@ public class SaSiPlayerController : MonoBehaviour {
         moveInput = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
 
-        if (Input.GetKey("escape"))
-            Application.Quit();
+       
     }
 
     void Update(){
-    
+
+        if (Input.GetKey("escape"))
+            Application.Quit();
 
         if (isGrounded == true){
             extraJumps = extraJumpsValue;
